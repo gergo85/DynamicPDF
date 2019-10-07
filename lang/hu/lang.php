@@ -1,5 +1,4 @@
 <?php
-
 return [
     'plugin' => [
         'name' => 'Dinamikus PDF',
@@ -27,7 +26,9 @@ return [
         'preview_pdf' => 'PDF előnézet',
         'created_at' => 'Létrehozva',
         'updated_at' => 'Módosítva',
-        'background_img_comment' => 'A megfelelő megjelenéshez 96 DPI méretű képet használjon.'
+        'background_img_comment' => 'A megfelelő megjelenéshez 96 DPI méretű képet használjon.',
+        'size' => 'Papír mérete',
+        'orientation' => 'Papír tájolása',
     ],
     'template' => [
         'menu_label' => 'Sablon',
@@ -54,5 +55,12 @@ return [
     ],
     'menu' => [
         'label' => 'PDF'
-    ]
+    ],
+    'orientation' => [
+        'portrait' => 'Álló',
+        'landscape' => 'Fekvő',
+    ],
+    'options' => [
+        'empty' => '-- válasszon --',
+    ],
 ];
